@@ -226,7 +226,7 @@ p {
     }
 
     #inicio > #abertura h1{
-        text-align: left;
+        margin-right: 200px;        
     }
 
     #titulo > div > p {
