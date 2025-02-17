@@ -79,7 +79,7 @@ menu a {
         width: 90vw;
         padding: 5px;
         margin: auto;
-        margin-right: 12px;
+        margin-left: 12px;
         display: inline-block;
     }
 
@@ -87,7 +87,9 @@ menu a {
         display: block;
     }
 
-    
+    #abertura{
+        text-align: center;
+    }
     
     
 }
