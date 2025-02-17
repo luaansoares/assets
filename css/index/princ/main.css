@@ -224,6 +224,14 @@ p {
     #inicio > div > a > abbr > img {
         display: none;
     }
+
+    #inicio > #abertura h1{
+        text-align: left;
+    }
+
+    #titulo > div > p {
+        font-size: 1em;
+    }
 }
 
 @media (width >= 550px) and (max-width: 992px){

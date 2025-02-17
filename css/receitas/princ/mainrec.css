@@ -179,6 +179,10 @@ span {
     
     }
 
+    #cart_abertura h2{
+        text-align: center;
+    }
+
     #img_brasil, #img_franc, #img_eua, #img_italia, #img_jap{
         height: 250px;
         
