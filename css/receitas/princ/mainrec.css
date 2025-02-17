@@ -1,0 +1,187 @@
+@import '../../index/mundo/variavel.css;';
+
+/* TODO O MAIN */
+
+main {
+    display: grid;
+    grid-template-rows: repeat(4, minmax(200px, auto));
+    height: 100%;
+}
+
+
+#img_brasil{
+    grid-column: 1 / -1;
+    grid-row: 1;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../../imagens/Brasil/f97335b5-2d7c-4025-ba38-24c4c128c1eb.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.164);
+}
+
+#img_franc{  
+    grid-column: 1 / -1;
+    grid-row: 1;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../../imagens/França/How\ to\ Host\ a\ French\ Dinner\ Party\ or\ Shared\ Meal.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.164);
+}
+
+#img_eua{
+    grid-column: 1 / -1;
+    grid-row: 1;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../../imagens/EstadosUnidos/estadosunidos.jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.164);
+}
+
+#img_italia {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../../imagens/Italia/Host\ An\ Italian\ Dinner\ Party\ \(Menu\ And\ Decor\).jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.164);
+}
+
+#img_jap{
+    grid-column: 1 / -1;
+    grid-row: 1;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../../imagens/Japão/Japanese\ Food\ Flatlay\ by\ Kera\ Wong\ Photography.jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.164);
+}
+
+
+/* ABERTURA */
+
+#cart_abertura {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#cart_abertura h2{
+    color: var(--Laranja);
+    font-family: var(--fonteUbuntu);
+    font-size: 3em;
+}
+#cart_abertura p{
+    
+    font-family: var(--fonteUbuntu);
+    font-size: 1em;
+}
+/* RECEITAS */
+
+#cart_dez{
+    grid-column: 1 / -1;
+    grid-row: 3;
+    min-height: 100vh;
+    margin-top: 0px;
+    
+    
+}
+
+#card_itens{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.itens_dez{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.145);
+    height: 300px;
+    width: 249px;
+    height: 301px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.itens_dez:hover {
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.145);
+    transform: scale(1.005);
+    transition: 0.1s;
+}
+
+.itens_dez h3 {
+    font-family: var(--fonteUbuntu);
+    font-weight: bolder;
+    color: var(--Laranja);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.cart_img {
+    height: 70%;
+    width: 99%;
+    margin: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center center;
+    
+}
+
+i {
+    margin-left: 20px;
+    color: var(--Laranja);
+    font-size: 1.2em;
+    flex-direction: column;
+    
+}
+
+span {
+    margin: 10px;
+    color: var(--Grafite);
+}
+
+
+@media (width <= 600px){
+    
+    i {
+        margin-left: 25%;
+    
+    }
+
+    #img_brasil, #img_franc, #img_eua, #img_italia, #img_jap{
+        height: 250px;
+        
+    }
+}
+

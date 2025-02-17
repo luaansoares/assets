@@ -1,0 +1,73 @@
+@import '../../index/mundo/variavel.css;';
+aside {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--Cinza);
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.074);
+    
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 250px;
+  }
+  
+  .form .title {
+    color: var(--Laranja);
+    font-size: 30px;
+    
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .form button {
+    align-self: center;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--Laranja);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .form button:hover{
+    background-color: var(--Laranja);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.178);
+    cursor: pointer;
+  }
+      

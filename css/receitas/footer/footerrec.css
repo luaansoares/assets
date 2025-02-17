@@ -1,0 +1,25 @@
+@import '../../mundo/variavel.css';
+
+
+footer{
+    background-color: var(--Branco);
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p, a{
+    
+    font-size: 1em;
+    text-align: center;
+    color: var(--Laranja);
+    font-weight: lighter;
+}
+
+@media (width <= 600px){
+    footer > p {
+        font-size: 0.7em;
+    }
+}

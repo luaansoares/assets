@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Righteous&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root{
+    --Cinza: #e9e6e6eb;
+    --Branco: #FFFBFA;
+    --Laranja: #fe3b00;
+    --Creme: #FFFAEA;
+    --Preto: black;
+    --Grafite: rgba(54, 54, 54, 0.871);
+    --Claro: rgba(245, 239, 239, 0.899);
+    --MeioClaro: rgba(207, 203, 203, 0.63);
+
+    --fonteUbuntu: 'Ubuntu', sans-serif;
+
+}
+
+* {
+    
+    scroll-behavior: smooth;
+    
+    padding: 0px;
+    margin: 0px;
+    
+    text-decoration: none;
+
+    font-family: var(--fonteUbuntu);
+    font-weight: lighter;
+
+        
+}

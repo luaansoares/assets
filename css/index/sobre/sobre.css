@@ -1,0 +1,125 @@
+@import '../../mundo/variavel.css';
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    
+    
+}
+
+#sobre_inicio {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    flex: 1;
+    height: 400px;
+    background-color: var(--Cinza);
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#sobre_inicio div img {
+    height: 300px;
+    margin-right: 70px;
+    
+}
+
+#sobre_abertura {
+    font-family: var(--fonteUbuntu);
+    margin-left: 70px;
+    
+    
+}
+
+#conteiner_sobre {
+    grid-row: auto;
+    grid-column: 1 / -1;
+    
+    height: auto;
+    margin: auto;
+    min-height: 80vh;
+    overflow: hidden;
+    
+}
+
+#sobre_valores {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    min-height: auto;
+    gap: 50px;
+    
+}
+
+& .item_sobre{
+    box-shadow: 0px 1px 3px black;
+    margin: auto;
+    max-width: 300px;
+    min-height: 300px;
+    
+    background-color: var(--Laranja);
+    border-radius: 20px;
+    padding: 10px;
+
+    & h3 {
+        text-align: center;
+        color: var(--Branco);
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    & p {
+        text-align: center;
+        margin-top: 50px;
+        color: var(--Branco);
+    }
+
+    & .bi-emoji-heart-eyes-fill, .bi-alarm-fill{
+        font-size: 2em;
+        
+        color: var(--Branco);
+    }
+
+    
+}
+
+
+
+aside {
+    grid-column: 1 / -1;
+    grid-row: 5;
+    align-items: center;
+    justify-items: center;
+    align-self: flex-start;
+    background-color: var(--Cinza);
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.074)
+}
+
+@media (width <= 780px){
+    #sobre_inicio div abbr img{
+        display: none;
+    }
+}
+
+@media (width >= 780px) and (max-width: 900px){
+    #sobre_inicio div abbr img{
+        height: 100px;
+    }
+}
+
+@media (width >= 900px) and (max-width: 950px){
+    #sobre_inicio div abbr img{
+        height: 200px;
+    }
+}
+
+
+

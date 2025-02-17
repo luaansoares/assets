@@ -1,0 +1,255 @@
+@import '../../mundo/variavel.css';
+
+html {
+    scroll-padding-top: 150px;
+    background-color: var(--Branco);
+}
+/* TODO O MAIN */
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    
+}
+
+/* TODO PARTE INICIAL */
+
+#inicio {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    flex: 1;
+    height: 400px;
+    background-color: var(--Cinza);
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+
+#inicio div img {
+    height: 300px;
+    margin-right: 70px;
+    transform: translateX(100%);
+    animation: slidedir 2s ease forwards;
+}
+
+@keyframes slidedir {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#abertura {
+    font-family: var(--fonteUbuntu);
+    margin-left: 70px;
+    transform: translateX(-100%);
+    animation: slideesq 2s ease forwards;
+}
+
+@keyframes slideesq {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.item:nth-child(1) {
+    animation-delay: 0.3s;
+}
+.item:nth-child(2) {
+    animation-delay: 0.6s;
+}
+.item:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
+h1{
+    color: var(--Laranja);
+    
+    font-size: 5em;
+}
+
+h5 {
+    color: var(--Grafite);
+    font-size: 1.3em;
+    font-weight: initial;
+}
+
+p {
+    color: var(--Grafite);
+    font-size: 1.3em;
+    font-weight: initial;
+}
+
+/* APRESENTAÇÃO DAS RECEITAS */
+
+#titulo{
+    grid-column: 1 / -1;
+    grid-row: 2;
+    box-shadow: 0px -7px 10px rgba(0, 0, 0, 0.041);
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    animation: slidecima 2s ease forwards;
+    transition: opacity 2s ease;
+    
+    
+
+}
+
+
+
+
+#titulo h2 {
+    text-align: center;
+    color: var(--Laranja);
+    font-size: 3em;
+}
+
+#titulo p {
+    text-align: center;
+    color: var(--Grafite);
+}
+
+
+/* CARTES COM TIPOS DE RECEITAS */
+
+#pais_menu {
+    
+    margin-bottom: 100px;
+    grid-row: 3;
+    grid-column: 1 / -1;
+    transform: translateY(50px);
+    animation: slidecima 2s ease forwards;
+    transition: opacity 2s ease;
+    margin: auto;
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+@keyframes slidecima {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+#opcao_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+    
+    
+}
+
+.item_menu{
+    font-weight: bold;
+    width: 250px;
+    margin: 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.205);
+    border-radius: 20px;
+    background-color: var(--Branco);
+    cursor: pointer;
+    
+}
+
+.item_menu:hover{
+    transform: scale(1.005);
+    transition: transform 0.1s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.197);
+}
+
+
+.item_menu img {
+    border-radius: 20px;
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    
+}
+
+
+
+.item_menu h1 {
+    padding: 10px;
+    margin-bottom: 4px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+@media (width <= 600px) {
+
+    #inicio{
+        height: 300px;
+    }
+
+    #inicio > #abertura > h1, h5{
+        padding-left: 30px;
+        
+    }
+
+    #inicio > #abertura > p{
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    
+
+    #inicio > div > a > abbr > img {
+        display: none;
+    }
+}
+
+@media (width >= 550px) and (max-width: 992px){
+    #inicio{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+@media  (width >= 900px) and (width <= 1200px) {  /*pc*/
+    #inicio{
+        height: 350px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+}
+
+
+
+

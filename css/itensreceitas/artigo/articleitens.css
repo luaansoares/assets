@@ -1,0 +1,48 @@
+@import"../../index/mundo/variavel.css";
+article{
+    grid-column: 1 / 5;
+    grid-row: 4;
+    margin: auto;
+    width: 95vw;
+    background-color: var(--Branco);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.121);
+}
+
+article > h3 {
+    padding-left: 7px;
+    font-weight: bolder;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-collapse: collapse;
+    
+    
+}
+
+
+tr > td {
+    border: 0.5px solid rgba(0, 0, 0, 0.216);
+    
+    
+    padding: 10px;
+}
+
+th {
+    border: 0.5px solid rgba(0, 0, 0, 0.216);
+    color: var(--Branco);
+    background-color: var(--Laranja);
+    
+}
+
+@media (width <= 600px){
+    article{
+        display: none;
+    }
+}
+
