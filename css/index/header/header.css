@@ -87,8 +87,8 @@ menu a {
         display: block;
     }
 
-    #abertura{
-        text-align: center;
+    #inicio > #abertura{
+        background-color: black;
     }
     
     
