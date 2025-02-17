@@ -52,7 +52,7 @@ menu a {
 }
 
 
-@media (width <= 552px) {
+@media (max-width: 552px) {
     header{
         height: auto;
         transition: 1s; 
@@ -87,8 +87,8 @@ menu a {
         display: block;
     }
 
-    #inicio > #abertura{
-        background-color: black;
+    #inicio > #abertura h1{
+        text-align: left;
     }
     
     
