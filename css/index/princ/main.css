@@ -161,8 +161,8 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    width: 249px;
-    margin: 5px;
+    width: 60%;
+    margin: auto;
     
     
 }
@@ -250,6 +250,9 @@ p {
         font-size: 1em;
     }
 
+    .item_menu{
+        min-width: auto;
+    }
     
 }
 
