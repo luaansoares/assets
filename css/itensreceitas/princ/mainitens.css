@@ -302,7 +302,12 @@ span {
 
     #abertura_itens > div > h1{
         margin-top: 20px;
+        font-size: 2em;
         
+    }
+
+    #abertura_itens > div > p{
+        font-size: 1em;
     }
 
     
