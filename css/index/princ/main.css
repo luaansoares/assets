@@ -255,7 +255,7 @@ p {
     }
 
     .item_menu{
-        max-width: auto;
+        width: 300px;
         
     }
     
