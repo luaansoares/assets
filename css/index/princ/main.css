@@ -255,8 +255,8 @@ p {
     }
 
     .item_menu{
-        min-width: 300px;
-        
+        min-width: 200px;
+        margin-left: 20px;
     }
     
 }
