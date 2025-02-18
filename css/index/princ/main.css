@@ -246,6 +246,10 @@ p {
         font-size: 1em;
     }
 
+    #titulo > div > h2{
+        font-size: 2em;
+    }
+
     #titulo > div > p {
         font-size: 1em;
     }

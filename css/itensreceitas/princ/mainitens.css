@@ -297,7 +297,7 @@ span {
     #abertura_itens{
         height: 500px;
         margin: auto;
-        
+        border: 1px solid black;
     }
 
     #abertura_itens > div > h1{
