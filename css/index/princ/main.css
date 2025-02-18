@@ -248,6 +248,10 @@ p {
     #titulo > div > p {
         font-size: 1em;
     }
+
+    .item_menu{
+        max-width: 400px;
+    }
 }
 
 @media (width >= 550px) and (max-width: 992px){
