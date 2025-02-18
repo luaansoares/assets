@@ -310,6 +310,14 @@ span {
         font-size: 1em;
     }
 
+    #abertura_itens > div > i {
+        font-size: 1em;
+    }
+
+    #abertura_itens > div > span {
+        font-size: 0.9em;
+    }
+
     
     #abertura_itens > div > iframe{
         width: 80vw;
