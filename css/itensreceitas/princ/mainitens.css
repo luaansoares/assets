@@ -296,6 +296,7 @@ span {
     }
     #abertura_itens{
         height: 500px;
+        text-align: center;
     }
 
     #abertura_itens > div > h1{

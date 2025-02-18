@@ -210,8 +210,8 @@ p {
     }
 
     #inicio > #abertura{
-        border: 1px solid black;
-        margin-right: 50px;
+        margin-top: 50px;
+        margin-right: 40px;
     }
 
     #inicio > #abertura > h1, h5{
