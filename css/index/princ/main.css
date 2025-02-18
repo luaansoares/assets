@@ -161,7 +161,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    width: 60%;
+    width: 249px;
     margin: auto;
     
     
@@ -249,9 +249,7 @@ p {
         font-size: 1em;
     }
 
-    .item_menu{
-        max-width: 400px;
-    }
+    
 }
 
 @media (width >= 550px) and (max-width: 992px){
