@@ -308,6 +308,7 @@ span {
 
     #abertura_itens > div > p{
         font-size: 1em;
+        margin-right: 15%;
     }
 
     #abertura_itens > div > i {
@@ -348,6 +349,6 @@ span {
     }
 
     aside {
-        margin: 0px;
+        margin-left: 20px;
     }
 }
