@@ -384,6 +384,10 @@ span {
         margin-right: 30px;
     }
 
+    aside h1 {
+        font-size: 1.5em;
+    }
+
     .opcao_item {
         max-width: 200px;
         max-height: 300px;
@@ -398,7 +402,7 @@ span {
         font-size: 0.8em
     }
 
-   
+
 
     #conteiner_opcoes > .opcao_item > .infor_itens > .ti_itens > h1{
         font-size: 1em
