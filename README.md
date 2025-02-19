@@ -21,7 +21,7 @@ O objetivo deste projeto é desenvolver uma interface de usuário amigável e re
 
 ## 📱 Demonstração
 
-https://luaansoares.github.io/assets/html/br_feijoada.html
+https://luaansoares.github.io/assets/html/index.html
 
 ## 🚀 Como Usar
 
